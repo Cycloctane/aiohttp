@@ -152,12 +152,11 @@ jobs:
             no-extensions: 'Y'
             os: ubuntu
             experimental: false
-          - os: ubuntu
+          - os: windows
             pyver: "3.14"
             experimental: true
-            no-extensions: 'Y'
           - os: ubuntu
-            pyver: "3.14t"
+            pyver: "3.14"
             experimental: true
       fail-fast: true
     runs-on: ${{ matrix.os }}-latest
