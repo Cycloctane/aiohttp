@@ -1,0 +1,2 @@
+Fixed workflow always failing on forks. Made benchmark job skip when not
+running on main repository. -- by :user:`Cycloctane`.
